@@ -25,6 +25,8 @@ body {
   backdrop-filter: blur(10px);
   border-radius: 2em;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width:768px){
@@ -72,8 +74,6 @@ body{
   width: 135px;
   padding: 5px 20px;
   margin-left: 20px;
-  /* display: inline-block; */
-  float: left;
 }
 h4 {
   text-align: center;
@@ -92,12 +92,12 @@ h4 {
   line-height: 1.5;
   letter-spacing: 0.5px;
   word-spacing: 2.7px;
-  background: -webkit-linear-gradient(65deg, #ac4f7f, #660348 100%);
+  background: -webkit-linear-gradient(75deg, #ff0883,#e1599d, #ffd2f1,#fff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 input[type="text"] {
-  width: 140px;
+  width: 240px;
   margin: auto;
   outline: none;
   min-height: 50px;
@@ -107,6 +107,7 @@ input[type="text"] {
   border-radius: 10px;
   color: #5e0080;
   font-size: 17px;
+  
 }
 input[type="text"]:focus {
   background-color: #fff;
@@ -115,8 +116,8 @@ input[type="text"]:focus {
   outline: none;
 }
 input[type="button"] {
-  width: 150px;
-  margin-left: 35%;
+  width: 235px;
+  margin-left: 13%;
   margin-top: 40px;
   font-weight: bold;
   outline: none;
@@ -131,6 +132,7 @@ input[type="button"] {
   cursor: pointer;
   font-size: 16px;
   transition: 0.3s;
+
 }
 input[type="button"]:hover {
   background-color: #6f5579;
