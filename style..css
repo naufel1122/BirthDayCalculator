@@ -2,13 +2,19 @@
 * {
   box-sizing: border-box;
 }
+@media (max-width:768px) {
+  body{
+overflow: scroll;
+  }
+}
 body {
+  /* overflow: hidden; */
   font-family: sans-serif;
   background-image: url('./back.png');
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +47,7 @@ h4 {
 }
 .block  input{
   height: 30px;
-  width: 70%;
+  width: 80%;
   background-color: rgb(230, 221, 221);
   border: none;
   border-radius: 15px;
