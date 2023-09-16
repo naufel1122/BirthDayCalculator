@@ -27,6 +27,8 @@ body {
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  position: fixed;
 }
 
 @media (max-width:768px){
@@ -36,17 +38,13 @@ body{
 }
   .container {
     width: 90%;
-    height: auto;
+    height: 90vh;
     margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .base{
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-  }
+
   .block {
     width: 250px;
     /* padding: 5px 10px; */
@@ -71,15 +69,19 @@ body{
   float: none;
 }
 .block {
-  width: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 135px;
   padding: 5px 20px;
-  margin-left: 20px;
+  margin-left: 20px; */
 }
 h4 {
   text-align: center;
 }
 .neon {
-  font: 100 64px/64px "Dawning of a New Day", cursive;
+  font: 100 60px/60px "Dawning of a New Day", cursive;
   text-shadow: 0 -1px 0 #f00, 0 2px 0 #f00, 0 4px 0 #60f, -2px -2px 15px #f06,
     2px -2px 15px #f06, -2px 2px 15px #f06, 2px 2px 15px #f06;
 }
@@ -134,6 +136,7 @@ input[type="button"] {
   transition: 0.3s;
 
 }
+
 input[type="button"]:hover {
   background-color: #6f5579;
   transform: scale(1.1);
